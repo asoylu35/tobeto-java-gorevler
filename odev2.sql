@@ -37,6 +37,7 @@
 --9. Ürün birim fiyatlarına %18’lik KDV ekleyerek listesini almak (ProductName, UnitPrice, UnitPriceKDV) için bir sorgu yazın.
  SELECT  product_name, unit_price,(unit_price+(unit_price*18/100)) AS unit_price_kdv 
  FROM products;
+
 --10. Fiyatı 30 dan büyük kaç ürün var?
  SELECT COUNT(*) AS product_quantity 
  FROM products 
